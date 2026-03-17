@@ -7,8 +7,8 @@ import Image from "next/image";
 // ── Count-up hook ─────────────────────────────────────────
 function useCountUp(target: number, duration = 1400, decimals = 0) {
   const [display, setDisplay] = useState("0");
-  const ref = useRef<HTMLSpanElement>(null);
-  const inView = useInView(ref, { once: true, margin: "-60px" });
+  const ref = useRef<HTMLDivElement>(null);
+  const inView = useInView(ref, { once: true, amount: 0.3 });
 
   useEffect(() => {
     if (!inView) return;
@@ -49,9 +49,11 @@ function StatCard({ val, label, sub, delay }: { val: string; label: string; sub:
       whileHover={{ scale: 1.02, y: -2 }}
     >
       <div className="absolute inset-0 bg-gradient-to-br from-blue-500/12 to-indigo-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-400" />
-      <p className="text-3xl sm:text-4xl font-black text-white mb-1">
-        <span ref={ref}>{display}</span>{suffix}
-      </p>
+      <div ref={ref}>
+        <p className="text-3xl sm:text-4xl font-black text-white mb-1">
+          {display}{suffix}
+        </p>
+      </div>
       <p className="text-white/70 text-sm font-semibold">{label}</p>
       <p className="text-white/25 text-xs mt-0.5">{sub}</p>
     </motion.div>
