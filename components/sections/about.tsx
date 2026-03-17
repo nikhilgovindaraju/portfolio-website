@@ -121,7 +121,7 @@ function About() {
                 <div className="absolute -inset-6 rounded-3xl bg-indigo-400/15 blur-2xl -z-10" />
                 <div className="relative w-full h-full rounded-2xl overflow-hidden border border-blue-400/20 shadow-2xl shadow-blue-500/20">
                   <div className="absolute inset-0 bg-gradient-to-br from-blue-600/20 via-indigo-600/10 to-slate-900/40" />
-                  <Image src="/assets/profile.png" alt="Nikhil Govindaraju" fill className="object-cover object-top relative z-10" unoptimized />
+                  <Image src="/assets/profile.png" alt="Nikhil Govindaraju" fill className="object-cover object-top relative z-10" priority unoptimized />
                   <div className="absolute inset-x-0 bottom-0 h-1/4 bg-gradient-to-t from-[#0a0a0a] to-transparent z-20" />
                 </div>
                 <div className="absolute -bottom-5 left-1/2 -translate-x-1/2 whitespace-nowrap bg-[#111]/90 backdrop-blur-sm border border-white/10 rounded-full px-4 py-1.5 text-xs text-white/55 font-medium shadow-lg z-30">

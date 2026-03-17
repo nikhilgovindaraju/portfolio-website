@@ -98,6 +98,7 @@ function Experience() {
                           alt={company}
                           fill
                           className="object-contain p-1.5"
+                          loading="lazy"
                           unoptimized
                           onError={(e) => { (e.target as HTMLImageElement).style.display = "none"; }}
                         />
