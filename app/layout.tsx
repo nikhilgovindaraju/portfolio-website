@@ -3,7 +3,7 @@ import "./globals.css";
 import { Providers } from "@/components/providers";
 
 export const metadata: Metadata = {
-  title: "Nikhil Govindaraju — Full-Stack & AI Engineer",
+  title: "Nikhil's Portfolio",
   description: "USC MSCS graduate. Full-stack and AI product engineer specializing in React, Next.js, and production-grade web applications.",
   authors: [{ name: "Nikhil Govindaraju" }],
 };

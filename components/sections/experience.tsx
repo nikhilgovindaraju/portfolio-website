@@ -14,6 +14,8 @@ const logoMap: Record<string, string> = {
   "bosch":        "/assets/bosch.png",
   "robert-bosch": "/assets/bosch.png",
   "codespeedy":   "/assets/codespeedy.png",
+  "easleydunn":  "/assets/EDP.png",
+
 };
 
 function Experience() {

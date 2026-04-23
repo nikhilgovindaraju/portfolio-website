@@ -155,7 +155,7 @@ function About() {
               </p>
               <p>
                 <span className="text-white font-semibold">M.S. Computer Science, USC Viterbi School of Engineering.</span>{" "}
-                I&apos;ve worked across healthcare, embedded systems, and SaaS — actively looking for full-time roles.
+                I&apos;ve worked across healthcare, embedded systems, and SaaS, actively looking for full-time roles.
               </p>
             </div>
             <div className="flex flex-wrap gap-4 pt-1">

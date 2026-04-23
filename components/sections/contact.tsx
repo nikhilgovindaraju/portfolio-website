@@ -52,7 +52,7 @@ function Contact() {
                 transition={{ repeat: Infinity, duration: 2.5 }}
               >
                 <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
-                Open to full-time roles · Dec 2025
+                Open to full-time roles
               </motion.div>
             </div>
 

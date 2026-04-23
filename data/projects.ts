@@ -23,9 +23,9 @@ export const projects: Project[] = [
     featured: true,
     category: "Full Stack",
     description:
-      "A production-grade Electronic Health Records platform built with security and intelligence at its core. Combines AES-256 encryption, role-based access control, and a LangChain RAG pipeline that lets clinicians query patient records in plain English — cutting documentation time and boosting engagement.",
+      "A production-grade Electronic Health Records platform built with security and intelligence at its core. Combines AES-256 encryption, role-based access control, and a LangChain RAG pipeline that lets clinicians query patient records in plain English, cutting documentation time and boosting engagement.",
     problem:
-      "Most EHR systems treat security and intelligence as afterthoughts — fragile audit trails, no semantic search, and zero AI assistance for clinicians.",
+      "Most EHR systems treat security and intelligence as afterthoughts, fragile audit trails, no semantic search, and zero AI assistance for clinicians.",
     solution:
       "FastAPI backend with RSA/AES encryption, SHA-256 hash-chaining for tamper-evident audit logs, Redis caching, and a LangChain RAG chatbot deployed on AWS with full Dockerized CI/CD.",
     metrics: [
@@ -40,14 +40,14 @@ export const projects: Project[] = [
   {
     id: "resumefit",
     title: "ResumeFit",
-    tagline: "Chrome extension that matches your resume to any job — instantly, locally",
+    tagline: "Chrome extension that matches your resume to any job, instantly, locally",
     image: "/assets/resumefit.png", // replace with resumefit image when available
     featured: true,
     category: "Chrome Extension",
     description:
-      "A privacy-first Chrome extension that appears as a floating button on every job posting. Click it to instantly see which of your saved resumes best matches the role — complete with a 0–100 match score, matched vs missing skills, confidence rating, and optional AI tips. Everything runs locally. Nothing ever touches a server.",
+      "A privacy-first Chrome extension that appears as a floating button on every job posting. Click it to instantly see which of your saved resumes best matches the role, complete with a 0–100 match score, matched vs missing skills, confidence rating, and optional AI tips. Everything runs locally. Nothing ever touches a server.",
     problem:
-      "Job seekers waste hours tailoring resumes without knowing which version actually fits a role — and most tools require uploading sensitive data to third-party servers.",
+      "Job seekers waste hours tailoring resumes without knowing which version actually fits a role, and most tools require uploading sensitive data to third-party servers.",
     solution:
       "Browser-native NLP runs entirely client-side for full privacy. Optional BYOK AI integration (Gemini, Claude, OpenAI) for tailored suggestions. Built-in job tracker with CSV export and n8n webhook for auto-syncing to Notion, Sheets, or Airtable.",
     metrics: [
@@ -67,9 +67,9 @@ export const projects: Project[] = [
     featured: true,
     category: "Full Stack",
     description:
-      "A unified weather platform spanning web and native iOS — built with Angular on the frontend, Swift on mobile, and a shared Node/Flask backend with MongoDB caching. Real-time data visualisation via Highcharts with historical trend comparison, all served at sub-150ms response times with 99.9% uptime on GCP autoscaling.",
+      "A unified weather platform spanning web and native iOS, built with Angular on the frontend, Swift on mobile, and a shared Node/Flask backend with MongoDB caching. Real-time data visualisation via Highcharts with historical trend comparison, all served at sub-150ms response times with 99.9% uptime on GCP autoscaling.",
     problem:
-      "Existing weather tools are either too simple or fragmented across platforms — no single dashboard for live + historical trend comparison on both web and mobile.",
+      "Existing weather tools are either too simple or fragmented across platforms, no single dashboard for live + historical trend comparison on both web and mobile.",
     solution:
       "Angular SPA and SwiftUI iOS app sharing a Node/Flask backend with MongoDB caching layer. GCP autoscaling handles traffic spikes; Highcharts renders rich interactive visualisations.",
     metrics: [
@@ -113,7 +113,7 @@ export const projects: Project[] = [
     description:
       "A top-down survival Unity game where players navigate waves of enemies using a strategic time-freeze ability. Built with custom C# game logic, particle system VFX for the freeze effect, and an original audio engine integration. The time-freeze mechanic requires players to balance resource management with spatial awareness.",
     problem:
-      "Building a satisfying time-manipulation mechanic that feels powerful but balanced — without breaking the game loop or making enemies trivial to defeat.",
+      "Building a satisfying time-manipulation mechanic that feels powerful but balanced, without breaking the game loop or making enemies trivial to defeat.",
     solution:
       "C# coroutine-based time dilation system that individually freezes enemy agents while preserving player physics. Particle system VFX tied to the freeze state for clear visual feedback.",
     metrics: [
@@ -135,7 +135,7 @@ export const projects: Project[] = [
     featured: false,
     category: "Full Stack",
     description:
-      "Kafka-driven microservices commute planner that aggregates Calendar, Maps, and Weather APIs to tell you exactly when to leave — with proactive alerts and smart replanning when conditions change.",
+      "Kafka-driven microservices commute planner that aggregates Calendar, Maps, and Weather APIs to tell you exactly when to leave, with proactive alerts and smart replanning when conditions change.",
     problem: "Commuters juggle 3+ apps to coordinate meetings, traffic, and transit with no proactive alerting.",
     solution: "Kafka event pipeline with Spring Boot microservices, Redis caching, Kubernetes orchestration, and a Next.js frontend.",
     metrics: [
@@ -196,7 +196,7 @@ export const projects: Project[] = [
     category: "ML",
     description:
       "CNN trained on the EMNIST balanced dataset to classify handwritten English alphabets across 47 classes, using data augmentation and dropout regularisation for robust generalisation.",
-    problem: "Accurate handwriting recognition for the full alphabet — not just digits — is significantly harder and less explored.",
+    problem: "Accurate handwriting recognition for the full alphabet, not just digits, is significantly harder and less explored.",
     solution: "CNN on EMNIST balanced dataset with data augmentation and dropout regularisation.",
     metrics: [
       { label: "Dataset", value: "EMNIST" },
